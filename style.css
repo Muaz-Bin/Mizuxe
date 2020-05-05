@@ -1,0 +1,120 @@
+body{
+  padding: 0;
+  margin: 0;
+  margin-top:91px;
+}
+/**********header section***********/
+header nav{
+  box-shadow:2px 2px 5px #3292a6;
+  background:rgba(255, 255, 255, .8);
+}
+header .navbar-light .navbar-nav .nav-link{
+  font-size: 22px;
+  color: #252525;
+}
+header .navbar-light .navbar-nav .nav-item{
+  padding-right:24px;
+}
+header .navbar-light .navbar-nav .nav-item:last-child{
+  padding-right:0;
+}
+header .navbar-light .navbar-nav .nav-link:hover{
+  color: #3292a6;
+}
+header .navbar-light button{
+  border:none;
+  outline:none;
+}
+header .navbar .nav-item .active{
+  color: #3292a6 !important;
+}
+
+
+/**********middle section***********/
+
+/**********home*********/
+#home .home-head{
+  background-image: url(img/mountains.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#home .home-head .color-overlay{
+  background-color:rgba(50,146,166,.7);
+}
+#home .home-head .color-overlay .btn{
+  border-radius: 0;
+}
+#home .home-body{
+  background-color: #252525;
+}
+
+#home input{
+  border-radius: 0;
+}
+#home button{
+  border-radius: 0;
+  color: #fff;
+  background-color:#3292a6;
+}
+
+#home .card{
+  border:1px solid #3292a6;
+  border-radius: 0;
+}
+#home .card h2{
+  color:#3292a6;
+}
+#home .card-me{
+  background-color:#3292a6;
+}
+
+/**********about*********/
+
+.about-head h1{
+  color: #3292a6;
+}
+/**********meet the authors*********/
+.team-head h1{
+  color:#3292a6;
+}
+
+.team-body .card .card-body img{
+  margin-top:-65px;
+}
+.team-body .card:hover{
+  background-color:#3292a6;
+  color: #fff;
+}
+.team-body .card i{
+  color:#3292a6;
+  font-size: 25px;
+}
+.team-body .card:hover i{
+  color:#fff;
+}
+/*********contact*********/
+#contact .btn{
+  background-color: #3292a6;
+  color: #fff;
+  border-radius: 0;
+}
+/**********footer section***********/
+footer{
+  background-color: #3292a6;
+}
+
+
+
+
+/**********************responsive section start here******************/
+
+
+/**********responsive header section*******/
+
+
+
+/**********responsive middle section*******/
+
+
+
+/**********responsive footer section*******/
